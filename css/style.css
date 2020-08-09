@@ -417,6 +417,15 @@ border-radius: 0px 0px 4px 4px;
     background-color: var(--background-butten-color);
     color: #ffffff;
 }
+.button::after {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    content: "";
+    background-image: url(../picture/svg/telegram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* Портфолио */
 /* Кнопки */
 .portfolio-button {
