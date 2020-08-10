@@ -135,7 +135,7 @@ h1, h2, h3 {
 /* hero */
 .hero {
     background: #F5F4FA;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../picture/jpg/Img.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/phon-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -374,6 +374,17 @@ border-radius: 0px 0px 4px 4px;
 }
 .footer-adress .item {
     margin-bottom: 10px;
+}
+.footer-adress .contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+.footer-adress .contact:hover {
+    color: #2196F3;
 }
 .footer-adress .item:last-child {
     margin-bottom: 0px;
